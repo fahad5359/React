@@ -1,7 +1,8 @@
 import React from 'react'
 
 export default function Welcome() {
+    const guy="ahmad"
   return (
-    <div>Welcdome</div>
+    <div className="Welcome"><p>Hello {guy}</p></div>
   )
 }

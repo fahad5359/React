@@ -1,3 +1,9 @@
 .App{
   border: 10px solid black;
 }
+.Goodbye{
+  background-color: yellow;
+}
+.Welcome{
+  background-color: rgb(0, 94, 255);
+}

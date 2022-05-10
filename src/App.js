@@ -1,5 +1,8 @@
-
+import  React from 'react';
 import './App.css';
+import GoodBey from './components/GoodBey';
+import Welcome from './components/Welcome';
+
 
 function App() {
   const  dawesome= "klb"
@@ -18,6 +21,10 @@ function App() {
         {/* we  can calculate values and using JSX we can bring these values on the HTML file*/}
         <p>What is the sum of 50 +  50 </p>
         <p>it is {sum}</p>
+
+        <p>the Welcome component is bellow</p>
+        <Welcome></Welcome>
+        <GoodBey></GoodBey>
       
      
     </div>
